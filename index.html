@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Recipe Finder</h1>
+            <p>Discover delicious recipes based on the ingredients you have!</p>
+        </header>
+
+        <!-- Search Section -->
+        <form id="searchForm">
+            <input type="text" id="search" placeholder="Enter ingredients" required>
+            <button type="submit" class="btn">Search</button>
+        </form>
+
+        <!-- Loader Section -->
+        <div id="loader" class="loader" style="display: none;">Loading...</div>
+
+        <!-- Results Section -->
+        <div id="results"></div>
+
+        <!-- Load More Button -->
+        <button id="loadMore" class="btn" style="display: none;">Load More</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <hr>
+        <p>&copy; 2024 TEAM FLYERS. All Rights Reserved.</p>
+           </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
